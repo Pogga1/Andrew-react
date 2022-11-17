@@ -1,5 +1,5 @@
 import React from 'react';
-import './css/style.css'
+
 
 const styles ={
   header: {
@@ -11,7 +11,7 @@ function Header() {
 
   return (
     <header className="header" style={styles.header}>
-      <h1 className='headerName'>Hamza Ramzanali</h1>
+      <h1 className='headerName'>Andrew Eysoldt</h1>
     </header>
   );
 }

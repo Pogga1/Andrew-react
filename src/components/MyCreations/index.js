@@ -1,13 +1,10 @@
 import React from 'react';
-import PasswordGenerator from '../../assets/passwordGenerator.png'
-import '../css/Portfolio.css'
-import Portfolio from '../../assets/portfolio1.png'
-import Weather from '../../assets/weatherDashboard.png'
-import ArtApi from '../../assets/project1.png'
-import NoteTaker from '../../assets/noteTaker.png'
-import TeamSpeak from '../../assets/teamSpeak.png'
+import PasswordGenerator from '../assets/passwordGenerator.png'
+import Portfolio from '../assets/portfolio1.png'
+import NoteTaker from '../assets/noteTaker.png'
 
-export default function Blog() {
+
+function Projects() {
   return (
     <div>
     <div className='container portfolioPgContainer'>
@@ -67,3 +64,5 @@ export default function Blog() {
     </div>
   );
 }
+
+export default Projects;

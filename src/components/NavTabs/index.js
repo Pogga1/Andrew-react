@@ -1,7 +1,5 @@
 import React from 'react';
-import Header from './Header';
-import './css/Header.css'
-import './css/style.css'
+import Header from '../Header';
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
@@ -19,11 +17,11 @@ function NavTabs({ currentPage, handlePageChange }) {
       </li>
       <li className="nav-item">
         <a
-          href="#portfolio"
-          onClick={() => handlePageChange('Portfolio')}
-          className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+          href="#MyCreations"
+          onClick={() => handlePageChange('My Creations')}
+          className={currentPage === 'My Creations' ? 'nav-link active' : 'nav-link'}
         >
-          Portfolio
+          My Creations
         </a>
       </li>
       <li className="nav-item">
@@ -33,15 +31,6 @@ function NavTabs({ currentPage, handlePageChange }) {
           className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
         >
           Contact
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#resume"
-          onClick={() => handlePageChange('Resume')}
-          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
-        >
-          Resume
         </a>
       </li>
     </ul>

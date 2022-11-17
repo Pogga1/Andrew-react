@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
-import NavTabs from './NavTabs';
-import AboutMe from './pages/AboutMe';
-import Resume from './pages/Resume';
-import Portfolio from './pages/Portfolio';
-import Contact from './pages/Contact';
+import NavTabs from './components/NavTabs';
+import AboutMe from './components/AboutMe';
+import Projects from './components/MyCreations';
+import Contact from './components/Contact';
 import './css/style.css'
 import Footer from './Footer'
 
@@ -17,8 +16,8 @@ import Footer from './Footer'
     if (currentPage === 'Resume') {
       return <Resume />;
     }
-    if (currentPage === 'Portfolio') {
-      return <Portfolio />;
+    if (currentPage === 'My Creations') {
+      return <Projects />;
     }
     return <Contact />;
   };
