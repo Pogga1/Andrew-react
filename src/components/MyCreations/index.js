@@ -1,6 +1,6 @@
 import React from 'react';
 import Wingman from '../../assets/Wingman.gif'
-import TeamProfileGenerator from '../../assets/TeamProfileGenerator.png '
+import TeamProfileGenerator from '../../assets/TeamProfileGenerator.png'
 import NoteTaker from '../../assets/NoteTaker.png'
 import WorkDayScheduler from '../../assets/WorkDayScheduler.png'
 
@@ -40,7 +40,7 @@ function Projects() {
           <a href='' className='link'>
             <img src={WorkDayScheduler} alt="Work Day Scheduler" className=''></img>
           </a>
-          <p className='caption'>WorkDayScheduler</p>
+          <p className='caption'>Work Day Scheduler</p>
         </div>
       </div>
     </div>

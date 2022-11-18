@@ -3,7 +3,9 @@ import React from 'react';
 
 const styles ={
   header: {
-    background: 'lightblue'
+    background: '',
+    display: 'flex',
+    justifyContent: 'Center'
   },
 }
 

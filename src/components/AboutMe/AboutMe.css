@@ -1,0 +1,8 @@
+.AboutMe {
+background-color: #9370DB;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2 {
+    display: flex;
+    justify-content: center;
+}

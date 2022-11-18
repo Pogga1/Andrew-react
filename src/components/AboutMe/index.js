@@ -1,13 +1,18 @@
 import React from 'react';
 import Me from '../../assets/Me.jpg'
+import backgroundImage from '../../assets/lakeside-pink-sky-sunset-minimal-art-gradient-background-1920x1080-4584.png'
+import'./AboutMe.css';
 
+const styles= {
+  // {backgroundImage: `url(${backgroundImage})`}
+};
 
 
 function AboutMe() {
     return (
-      <div>
-        <div classNameName='homePg-header' style={styles.homePgHeader}>
-          <h2 style={styles.h2}>About Me</h2>
+      <div className='AboutMe'>
+        <div>
+          <h2>About Me</h2>
         </div>
         <div className="container">
         <div className="card col imgCard" styles={styles.card}>

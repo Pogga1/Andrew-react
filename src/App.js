@@ -13,9 +13,6 @@ import Footer from './components/Footer'
     if (currentPage === 'AboutMe') {
       return <AboutMe />;
     }
-    if (currentPage === 'Resume') {
-      return <Resume />;
-    }
     if (currentPage === 'My Creations') {
       return <Projects />;
     }
