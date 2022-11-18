@@ -3,7 +3,7 @@ import Wingman from '../../assets/Wingman.gif'
 import TeamProfileGenerator from '../../assets/TeamProfileGenerator.png'
 import NoteTaker from '../../assets/NoteTaker.png'
 import WorkDayScheduler from '../../assets/WorkDayScheduler.png'
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Projects() {
   return (

@@ -2,7 +2,7 @@ import React from 'react';
 import Me from '../../assets/Me.jpg'
 import backgroundImage from '../../assets/lakeside-pink-sky-sunset-minimal-art-gradient-background-1920x1080-4584.png'
 import'./AboutMe.css';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 const styles= {
   // {backgroundImage: `url(${backgroundImage})`}
 };

@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../Header';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div className="headerNav-container"> 
