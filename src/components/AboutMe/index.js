@@ -1,4 +1,9 @@
-export default function AboutMe() {
+import React from 'react';
+import Me from '../../assets/Me.jpg'
+
+
+
+function AboutMe() {
     return (
       <div>
         <div classNameName='homePg-header' style={styles.homePgHeader}>
@@ -8,7 +13,7 @@ export default function AboutMe() {
         <div className="card col imgCard" styles={styles.card}>
             <div className="card-img">
               <div className='meImgContainer'>
-                <img src={Me} alt="educationImg" className='meIMG'></img>
+                <img src={Me} alt="image of me" className=''></img>
               </div>
             </div>
           </div>
@@ -16,10 +21,6 @@ export default function AboutMe() {
             <div className="card-body">
               <h5 className="card-title"></h5>
               <p className="card-text"></p>
-              <div className='imgContainer'>
-                <img src={UICimg} alt="educationImg" className='uicIMG'></img>
-                <img src={NWimg} alt="educationImg" className='nwIMG'></img>
-              </div>
             </div>
           </div>
           <div className="card col">
@@ -32,10 +33,12 @@ export default function AboutMe() {
             <div className="card-body">
               <h5></h5>
               <p className="card-text"> 
-                Thank you- Hamza!</p>
+                </p>
             </div>
           </div>
         </div>
       </div>
     );
   }
+
+  export default AboutMe

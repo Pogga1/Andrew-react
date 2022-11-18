@@ -3,8 +3,8 @@ import NavTabs from './components/NavTabs';
 import AboutMe from './components/AboutMe';
 import Projects from './components/MyCreations';
 import Contact from './components/Contact';
-import './css/style.css'
-import Footer from './Footer'
+
+import Footer from './components/Footer'
 
  function App() {
   const [currentPage, setCurrentPage] = useState('AboutMe');
