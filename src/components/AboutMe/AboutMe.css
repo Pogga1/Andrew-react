@@ -1,8 +1,14 @@
 .AboutMe {
-background-color: #9370DB;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: #ffffff;
+font-family: 'Montserrat Alternates', sans-serif;
 }
 h2 {
     display: flex;
     justify-content: center;
+}
+img{
+    height: auto;
+    width: 20%;
+    border-radius: 10% ;
+    align-items: center;
 }

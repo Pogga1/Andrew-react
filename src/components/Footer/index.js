@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './Footer.css'
 
 function Footer() {
 
@@ -9,7 +9,7 @@ function Footer() {
         <h5> Thanks for Visiting!</h5>
       </div>
       <div>
-      <a href="https://github.com/Pogga1">Github</a>
+      <a href="https://github.com/Pogga1" target='_blank'>Github</a>
       </div>
       <div>
       <a href="resume">resume</a>

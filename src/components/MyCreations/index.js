@@ -11,7 +11,7 @@ function Projects() {
     <div className='container portfolioPgContainer'>
       <div className="card col-md-6 portofolio-img-container">
         <div className="card-body ">
-          <a href='' className='link'>
+          <a href='https://github.com/Dustinm5Oly/WingMan' target='_blank' className='link'>
             <img src={Wingman} alt="wingman" className=''></img>
           </a>
           <p className='caption'>Wingman</p>
@@ -19,7 +19,7 @@ function Projects() {
       </div>
       <div className="card col-md-6 portofolio-img-container">
         <div className="card-body">
-          <a href='' className='link'>
+          <a href='https://github.com/Pogga1/Team-Profile-Gen' target='_blank' className='link'>
             <img src={TeamProfileGenerator} alt="Team Profile Generator" className=''></img>
           </a>
           <p className='caption'>Team Profile Generator</p>
@@ -29,7 +29,7 @@ function Projects() {
     <div className='container portfolioPgContainer'>
       <div className="card col-md-6 portofolio-img-container">
         <div className="card-body">
-          <a href='' className='link'>
+          <a href='https://github.com/Pogga1/Note-Taker' target='_blank'  className='link'>
             <img src={NoteTaker} alt="Note Taker" className=''></img>
           </a>
           <p className='caption'>NoteTaker</p>
@@ -37,7 +37,7 @@ function Projects() {
       </div>
       <div className="card col-md-6 portofolio-img-container">
         <div className="card-body">
-          <a href='' className='link'>
+          <a href='https://pogga1.github.io/Calendar-Scheduler/' target='_blank' className='link'>
             <img src={WorkDayScheduler} alt="Work Day Scheduler" className=''></img>
           </a>
           <p className='caption'>Work Day Scheduler</p>
