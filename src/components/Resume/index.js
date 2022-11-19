@@ -86,7 +86,7 @@ export default function Resume() {
           </li>
         </ul>
         <p className="d-flex justify-content-center">
-          Cumulative GPA in STEM curriculum (3.4 unweighted/4.2 weighted)
+          - Cumulative GPA in STEM curriculum (3.4 unweighted/4.2 weighted)
         </p>
         <h2 className="d-flex justify-content-center highlights">Work Experience</h2>
         <ul className="list-group list-group d-flex justify-content-center text-center">
