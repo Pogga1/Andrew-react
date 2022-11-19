@@ -8,7 +8,7 @@ h2 {
 }
 img{
     height: auto;
-    width: 40%;
+    width: 50%;
     border-radius: 10% ;    
     border: solid rgb(98, 227, 231) 3px; 
 }
@@ -29,4 +29,7 @@ img{
 }
 .card{
     border: none;
+}
+li{
+    list-style: none;
 }

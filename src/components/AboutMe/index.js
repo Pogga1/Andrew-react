@@ -3,6 +3,7 @@ import Me from '../../assets/Me.jpg'
 import backgroundImage from '../../assets/lakeside-pink-sky-sunset-minimal-art-gradient-background-1920x1080-4584.png'
 import'./AboutMe.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { SiHtml5, SiJava, SiCss3, SiBootstrap, SiTailwindcss, SiMongodb, SiExpress, SiMysql, SiNodedotjs, SiReact, SiJquery, SiHeroku, SiGit, SiNpm, SiHandlebarsdotjs } from 'react-icons/si'
 const styles= {
   // {backgroundImage: `url(${backgroundImage})`}
 };
@@ -36,6 +37,20 @@ function AboutMe() {
           <div className="card col">
             <div className="card-body">
               <p className="card-text text-center">My favorite musical artist is 'The Weeknd' and i enjoy these movies: Prey, Kill Bill, Pirates of the Carribean, John Wick, and more</p>
+            </div>
+          </div>
+          <div className="card col">
+            <div className="card-body">
+              <p className="card-text text-center">My skills</p>
+            </div>
+          </div>
+          <div className="card col">
+            <div className="card-body">
+              <p className="card-text text-center">
+                <ul>
+                  <li> <SiHtml5/>  <SiJava/> <SiCss3/> <SiBootstrap/> <SiTailwindcss/> <SiMongodb/> <SiExpress/> <SiMysql/> <SiNodedotjs/> <SiReact/> <SiJquery/> <SiHeroku/> <SiGit/> <SiNpm/> <SiHandlebarsdotjs/></li>
+                </ul>
+              </p>
             </div>
           </div>
         </div>
