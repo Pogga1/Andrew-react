@@ -12,7 +12,7 @@ function Footer() {
       <a href="https://github.com/Pogga1" target='_blank' className='mx-4'>Github</a>
       </div>
       <div>
-      <a href="resume">resume</a>
+      <a href="https://profile.indeed.com/?hl=en&co=US&from=gnav-homepage&_ga=2.128842254.32306074.1668894516-133722550.1663131909" target= '_blank'>Indeed</a>
       </div>
     </footer>
   );

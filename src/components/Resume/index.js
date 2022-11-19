@@ -4,7 +4,7 @@ import './Resume.css'
 export default function Resume() {
   return (
     <div>
-      <h1>Resume</h1>
+      <h1 className='d-flex justify-content-center'>Resume</h1>
       <p>
       
       </p>
