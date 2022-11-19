@@ -19,7 +19,7 @@ function AboutMe() {
         <div className="" styles={styles.card}>
             <div className="card-img mb-3">
               <div className='meImgContainer '>
-                <img src={Me} alt="image of me" className=''></img>
+                <img src={Me} alt="image of me" className='image'></img>
               </div>
             </div>
           </div>
@@ -41,15 +41,17 @@ function AboutMe() {
           </div>
           <div className="card col">
             <div className="card-body">
-              <p className="card-text text-center">My skills</p>
+              <p className="card-text text-center">My skills: </p>
             </div>
           </div>
           <div className="card col">
-            <div className="card-body">
+            <div className="card-body pt-0">
               <p className="card-text text-center">
+                <h2>
                 <ul>
                   <li> <SiHtml5/>  <SiJava/> <SiCss3/> <SiBootstrap/> <SiTailwindcss/> <SiMongodb/> <SiExpress/> <SiMysql/> <SiNodedotjs/> <SiReact/> <SiJquery/> <SiHeroku/> <SiGit/> <SiNpm/> <SiHandlebarsdotjs/></li>
                 </ul>
+                </h2>
               </p>
             </div>
           </div>

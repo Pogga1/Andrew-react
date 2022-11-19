@@ -1,1 +1,11 @@
 
+.caption{
+    font-size: 25px;
+}
+.CreationsImage{
+    width: 70%;
+    height: 70%;
+    border: solid rgb(98, 227, 231) 3px; 
+    border-radius: 20px;
+   
+}

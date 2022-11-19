@@ -6,7 +6,7 @@ h2 {
     display: flex;
     justify-content: center;
 }
-img{
+.image{
     height: auto;
     width: 50%;
     border-radius: 10% ;    

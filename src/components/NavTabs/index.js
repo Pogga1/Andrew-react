@@ -7,12 +7,12 @@ function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div className="headerNav-container "> 
     <Header/>
-    <ul className="nav nav-tabs">
+    <ul className="nav nav-tabs ">
       <li className="nav-item">
         <a
           href="#aboutme"
           onClick={() => handlePageChange('AboutMe')}
-          className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link NavColor'}
         >
           About Me
         </a>
@@ -21,7 +21,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         <a
           href="#MyCreations"
           onClick={() => handlePageChange('My Creations')}
-          className={currentPage === 'My Creations' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'My Creations' ? 'nav-link active' : 'nav-link NavColor'}
         >
           My Creations
         </a>
@@ -30,7 +30,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         <a
           href="#Resume"
           onClick={() => handlePageChange('Resume')}
-          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link NavColor'}
         >
           Resume
         </a>
@@ -39,7 +39,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         <a
           href="#contact"
           onClick={() => handlePageChange('Contact')}
-          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link NavColor'}
         >
           Contact
         </a>

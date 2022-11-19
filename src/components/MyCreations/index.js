@@ -10,54 +10,54 @@ import './MyCreations.css'
 
 function Projects() {
   return (
-    <div className= 'myCreations'>
-    <div className=' container portfolioPgContainer'>
-      <div className="card col-md-6 portofolio-img-container">
+    <div className= 'myCreations d-flex flex-wrap justify-content-center '>
+    <div className=' container row text-center'>
+      <div className="card col-md-6">
         <div className="card-body ">
           <a href='https://github.com/Dustinm5Oly/WingMan' target='_blank' className='link'>
-            <img src={Wingman} alt="wingman" className=''></img>
+            <img src={Wingman} alt="wingman" className='CreationsImage'></img>
           </a>
           <p className='caption'>Wingman</p>
         </div>
       </div>
-      <div className="card col-md-6 portofolio-img-container">
+      <div className="card col-md-6">
         <div className="card-body">
           <a href='https://github.com/Pogga1/Team-Profile-Gen' target='_blank' className='link'>
-            <img src={TeamProfileGenerator} alt="Team Profile Generator" className=''></img>
+            <img src={TeamProfileGenerator} alt="Team Profile Generator" className='CreationsImage'></img>
           </a>
           <p className='caption'>Team Profile Generator</p>
         </div>
       </div>
     </div>
-    <div className='container portfolioPgContainer'>
-      <div className="card col-md-6 portofolio-img-container">
+    <div className='container row text-center'>
+      <div className="card col-md-6">
         <div className="card-body">
           <a href='https://github.com/Pogga1/Note-Taker' target='_blank'  className='link'>
-            <img src={NoteTaker} alt="Note Taker" className=''></img>
+            <img src={NoteTaker} alt="Note Taker" className='CreationsImage'></img>
           </a>
           <p className='caption'>NoteTaker</p>
         </div>
       </div>
-      <div className="card col-md-6 portofolio-img-container">
+      <div className="card col-md-6">
         <div className="card-body">
           <a href='https://pogga1.github.io/Calendar-Scheduler/' target='_blank' className='link'>
-            <img src={WorkDayScheduler} alt="Work Day Scheduler" className=''></img>
+            <img src={WorkDayScheduler} alt="Work Day Scheduler" className='CreationsImage'></img>
           </a>
           <p className='caption'>Work Day Scheduler</p>
         </div>
       </div>
-      <div className="card col-md-6 portofolio-img-container">
+      <div className="card col-md-6">
         <div className="card-body ">
           <a href='https://github.com/Dustinm5Oly/WingMan' target='_blank' className='link'>
-            <img src={TextEditor} alt="Text Editor" className=''></img>
+            <img src={TextEditor} alt="Text Editor" className='CreationsImage'></img>
           </a>
           <p className='caption'>Text Editor</p>
         </div>
       </div>
-      <div className="card col-md-6 portofolio-img-container">
+      <div className="card col-md-6">
         <div className="card-body ">
           <a href='https://github.com/Pogga1/Password-lottery' target='_blank' className='link'>
-            <img src={PasswordGenerator} alt="password Generator" className=''></img>
+            <img src={PasswordGenerator} alt="password Generator" className='CreationsImage'></img>
           </a>
           <p className='caption'>Password Generator</p>
         </div>
