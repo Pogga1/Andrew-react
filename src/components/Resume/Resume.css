@@ -1,0 +1,24 @@
+.resume{
+    width: 60%;
+    margin: auto;
+}
+
+.objective{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.educational{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.highlights{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.resume ul{
+    border: solid white 2px
+}
+.resume p{
+    font-size: 20px;
+}

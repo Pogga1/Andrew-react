@@ -3,8 +3,8 @@ import "./Resume.css";
 
 export default function Resume() {
   return (
-    <div>
-      <h1 className="d-flex justify-content-center mt-4">Resume</h1>
+    <div className="resume">
+      <h1 className="d-flex justify-content-center mt-4 highlights">Resume</h1>
       <p className="d-flex-block justify-content-center">
         <h2 className="text-start">
           <ul className="list-group">
@@ -65,7 +65,7 @@ export default function Resume() {
             - Medical Academy for Science and Technology (Freshman-Junior Years)
           </p>
         </div>
-        <h3 className="d-flex justify-content-center">
+        <h3 className="d-flex justify-content-center highlights">
           Coursework Highlights:
         </h3>
         <ul className="list-group list-group-horizontal-md d-flex justify-content-center">
@@ -88,7 +88,7 @@ export default function Resume() {
         <p className="d-flex justify-content-center">
           Cumulative GPA in STEM curriculum (3.4 unweighted/4.2 weighted)
         </p>
-        <h2 className="d-flex justify-content-center">Work Experience</h2>
+        <h2 className="d-flex justify-content-center highlights">Work Experience</h2>
         <ul className="list-group list-group d-flex justify-content-center text-center">
           <li className="list-group-item text-light">
             College Level Tutoring - Precalculus, English, Psychology, and
@@ -109,7 +109,7 @@ export default function Resume() {
             of organizing the back lot
           </li>
         </ul>
-        <h2>Skills/Abilities </h2>
+        <h2 className= 'highlights'>Skills/Abilities </h2>
         <ul className="list-group list-group d-flex justify-content-center text-center">
           <li className="list-group-item text-light">Self-starter</li>
           <li className="list-group-item text-light">independent worker</li>
