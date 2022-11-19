@@ -1,0 +1,40 @@
+.contactFormBtn{
+   background-color: transparent;
+    background-image: none;
+    border: solid white 2px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    scale: .7;
+}
+h1{
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.contactForm{
+    width: 70%;
+    text-align: center;
+    display: flex;
+    border: solid rgb(98, 227, 231) 3px; 
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 100px;
+    font-size: 40px;
+    vertical-align: middle;
+}
+#user_email{
+    color: white;
+    font-size: 24px;
+}
+#user_name{
+    color: white;
+    font-size: 24px;
+}
+#user-message{
+    color: white;
+    font-size: 24px;
+}
+.contactFormBtn:hover{
+    background-color:rgb(98, 227, 231) ;
+}
