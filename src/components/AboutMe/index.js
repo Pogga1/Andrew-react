@@ -10,37 +10,35 @@ const styles= {
 
 function AboutMe() {
     return (
-      <div className='AboutMe'>
+      <div className='AboutMe '>
         <div>
           <h2>About Me</h2>
         </div>
         <div className="container">
-        <div className="card col imgCard" styles={styles.card}>
-            <div className="card-img">
-              <div className='meImgContainer'>
+        <div className="" styles={styles.card}>
+            <div className="card-img mb-3">
+              <div className='meImgContainer '>
                 <img src={Me} alt="image of me" className=''></img>
               </div>
             </div>
           </div>
+        <div className='infoContainer'>
           <div className="card col" styles={styles.card}>
             <div className="card-body">
-              <h5 className="card-title"></h5>
-              <p className="card-text"></p>
+              <p className="card-text text-center">My name is Andrew Eysoldt and i am a full stack web developer from the University of Arizona</p>
             </div>
           </div>
           <div className="card col">
             <div className="card-body">
-              <h5 className="card-title"></h5>
-              <p className="card-text"> </p>
+              <p className="card-text text-center">I love to learn new things and am very passionate about learning code. My personal favorite technologies are javaScript, React, MongoDb, Express, and Node.  </p>
             </div>
           </div>
           <div className="card col">
             <div className="card-body">
-              <h5></h5>
-              <p className="card-text"> 
-                </p>
+              <p className="card-text text-center">My favorite musical artist is 'The Weeknd' and i enjoy these movies: Prey, Kill Bill, Pirates of the Carribean, John Wick, and more</p>
             </div>
           </div>
+        </div>
         </div>
       </div>
     );

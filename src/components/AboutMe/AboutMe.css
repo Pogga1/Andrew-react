@@ -1,6 +1,6 @@
 .AboutMe {
-background-color: #ffffff;
 font-family: 'Montserrat Alternates', sans-serif;
+
 }
 h2 {
     display: flex;
@@ -8,7 +8,25 @@ h2 {
 }
 img{
     height: auto;
-    width: 20%;
-    border-radius: 10% ;
-    align-items: center;
+    width: 40%;
+    border-radius: 10% ;    
+    border: solid rgb(98, 227, 231) 3px; 
+}
+.meImgContainer{
+    display: flex;
+    justify-content: center; 
+    padding: 5px;
+}
+
+.card-body{
+    margin-bottom: 5px;
+}
+
+.infoContainer{
+    border:rgb(98, 227, 231) solid 2px;
+    border-radius:  5px;
+    font-size: 20px;
+}
+.card{
+    border: none;
 }

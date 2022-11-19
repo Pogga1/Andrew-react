@@ -3,12 +3,15 @@ import Wingman from '../../assets/Wingman.gif'
 import TeamProfileGenerator from '../../assets/TeamProfileGenerator.png'
 import NoteTaker from '../../assets/NoteTaker.png'
 import WorkDayScheduler from '../../assets/WorkDayScheduler.png'
+import PasswordGenerator from '../../assets/PasswordGenerator.png'
+import TextEditor from '../../assets/TextEditor.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './MyCreations.css'
 
 function Projects() {
   return (
-    <div>
-    <div className='container portfolioPgContainer'>
+    <div className= 'myCreations'>
+    <div className=' container portfolioPgContainer'>
       <div className="card col-md-6 portofolio-img-container">
         <div className="card-body ">
           <a href='https://github.com/Dustinm5Oly/WingMan' target='_blank' className='link'>
@@ -41,6 +44,22 @@ function Projects() {
             <img src={WorkDayScheduler} alt="Work Day Scheduler" className=''></img>
           </a>
           <p className='caption'>Work Day Scheduler</p>
+        </div>
+      </div>
+      <div className="card col-md-6 portofolio-img-container">
+        <div className="card-body ">
+          <a href='https://github.com/Dustinm5Oly/WingMan' target='_blank' className='link'>
+            <img src={TextEditor} alt="Text Editor" className=''></img>
+          </a>
+          <p className='caption'>Text Editor</p>
+        </div>
+      </div>
+      <div className="card col-md-6 portofolio-img-container">
+        <div className="card-body ">
+          <a href='https://github.com/Pogga1/Password-lottery' target='_blank' className='link'>
+            <img src={PasswordGenerator} alt="password Generator" className=''></img>
+          </a>
+          <p className='caption'>Password Generator</p>
         </div>
       </div>
     </div>

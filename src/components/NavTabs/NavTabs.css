@@ -1,0 +1,12 @@
+*{
+    background-image: url('../../assets/lakeside-pink-sky-sunset-minimal-art-gradient-background-1920x1080-4584.png');
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+    }
+a {
+    color:white
+}
