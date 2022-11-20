@@ -14,7 +14,7 @@ function Projects() {
     <div className=' container row text-center'>
       <div className="card col-md-6">
         <div className="card-body ">
-          <a href='https://github.com/Dustinm5Oly/WingMan' target='_blank' className='link'>
+          <a href='https://github.com/Dustinm5Oly/WingMan' target='_blank' rel="noreferrer" className='link'>
             <img src={Wingman} alt="wingman" className='CreationsImage'></img>
           </a>
           <p className='caption'>Wingman</p>
@@ -22,7 +22,7 @@ function Projects() {
       </div>
       <div className="card col-md-6">
         <div className="card-body">
-          <a href='https://github.com/Pogga1/Team-Profile-Gen' target='_blank' className='link'>
+          <a href='https://github.com/Pogga1/Team-Profile-Gen' target='_blank' rel="noreferrer" className='link'>
             <img src={TeamProfileGenerator} alt="Team Profile Generator" className='CreationsImage'></img>
           </a>
           <p className='caption'>Team Profile Generator</p>
@@ -32,7 +32,7 @@ function Projects() {
     <div className='container row text-center'>
       <div className="card col-md-6">
         <div className="card-body">
-          <a href='https://github.com/Pogga1/Note-Taker' target='_blank'  className='link'>
+          <a href='https://github.com/Pogga1/Note-Taker' target='_blank' rel="noreferrer" className='link'>
             <img src={NoteTaker} alt="Note Taker" className='CreationsImage'></img>
           </a>
           <p className='caption'>NoteTaker</p>
@@ -40,7 +40,7 @@ function Projects() {
       </div>
       <div className="card col-md-6">
         <div className="card-body">
-          <a href='https://pogga1.github.io/Calendar-Scheduler/' target='_blank' className='link'>
+          <a href='https://pogga1.github.io/Calendar-Scheduler/' target='_blank' rel="noreferrer" className='link'>
             <img src={WorkDayScheduler} alt="Work Day Scheduler" className='CreationsImage'></img>
           </a>
           <p className='caption'>Work Day Scheduler</p>
@@ -48,7 +48,7 @@ function Projects() {
       </div>
       <div className="card col-md-6">
         <div className="card-body ">
-          <a href='https://github.com/Dustinm5Oly/WingMan' target='_blank' className='link'>
+          <a href='https://github.com/Dustinm5Oly/WingMan' target='_blank' rel="noreferrer" className='link'>
             <img src={TextEditor} alt="Text Editor" className='CreationsImage'></img>
           </a>
           <p className='caption'>Text Editor</p>
@@ -56,7 +56,7 @@ function Projects() {
       </div>
       <div className="card col-md-6">
         <div className="card-body ">
-          <a href='https://github.com/Pogga1/Password-lottery' target='_blank' className='link'>
+          <a href='https://github.com/Pogga1/Password-lottery' target='_blank' rel="noreferrer" className='link'>
             <img src={PasswordGenerator} alt="password Generator" className='CreationsImage'></img>
           </a>
           <p className='caption'>Password Generator</p>

@@ -9,10 +9,10 @@ function Footer() {
         <h5> If your interested:</h5>
       </div>
       <div>
-      <a href="https://github.com/Pogga1" target='_blank' className='mx-4'>Github</a>
+      <a href="https://github.com/Pogga1" target='_blank' rel="noreferrer" className='mx-4'>Github</a>
       </div>
       <div>
-      <a href="https://profile.indeed.com/?hl=en&co=US&from=gnav-homepage&_ga=2.128842254.32306074.1668894516-133722550.1663131909" target= '_blank'>Indeed</a>
+      <a href="https://profile.indeed.com/?hl=en&co=US&from=gnav-homepage&_ga=2.128842254.32306074.1668894516-133722550.1663131909" target= '_blank' rel="noreferrer">Indeed</a>
       </div>
     </footer>
   );
