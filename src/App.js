@@ -7,9 +7,7 @@ import Resume from './components/Resume'
 import Footer from './components/Footer'
 
 
-const styles= {
-  minHeight: '100%'
-}
+
  function App() {
   const [currentPage, setCurrentPage] = useState('AboutMe');
 
