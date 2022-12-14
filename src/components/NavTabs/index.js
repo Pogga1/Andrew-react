@@ -8,6 +8,7 @@ function NavTabs({ currentPage, handlePageChange }) {
     <div className="headerNav-container "> 
     <Header/>
     <ul className="nav nav-tabs ">
+      
       <li className="nav-item">
         <a
           href="#aboutme"

@@ -16,7 +16,7 @@ h1{
     width: 70%;
     text-align: center;
     display: flex;
-    border: solid rgb(98, 227, 231) 3px; 
+    border: solid magenta 3px; 
     border-radius: 5px;
     margin: auto;
     margin-top: 100px;

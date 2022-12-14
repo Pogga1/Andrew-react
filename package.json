@@ -1,6 +1,5 @@
 {
-  "homepage": "http://Pogga1.github.io/andrew-portfolio",
-  "name": "andrew-portfolio",
+  "name": "tournimate",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -12,6 +12,7 @@ import Footer from './components/Footer'
   const [currentPage, setCurrentPage] = useState('AboutMe');
 
   const renderPage = () => {
+   
     if (currentPage === 'AboutMe') {
       return <AboutMe />;
     }
