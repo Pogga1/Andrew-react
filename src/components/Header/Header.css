@@ -1,6 +1,14 @@
-.me{
-    width: 75px;
-    height: 75px;
+.Me{
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     border: 2px solid white;
+}
+.headerName{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
 }

@@ -3,20 +3,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './Header.css';
 import Me from '../../assets/Me.jpg'
 
-const styles ={
-  header: {
-    background: '',
-    display: 'flex',
-    justifyContent: 'Center'
-  },
-}
+
 
 function Header() {
 
   return (
-    <header className="header" style={styles.header}>
+    <header className="header">
       <h1 className='headerName'>Andrew Eysoldt</h1>
-      <img src={Me} className='me d-flex justify-content-end'></img>
+      <div className='box'>
+      <img src={Me} className='Me'></img>
+      </div>
     </header>
   );
 }

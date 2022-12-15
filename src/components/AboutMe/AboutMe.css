@@ -26,10 +26,15 @@ h2 {
 }
 
 .infoContainer{
-    border:rgb(98, 227, 231) solid 2px;
+    border:#5e7085 solid 2px;
     border-radius:  5px;
     font-size: 20px;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+    
 }
 .card{
     border: none;
