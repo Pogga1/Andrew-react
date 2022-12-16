@@ -8,9 +8,15 @@
 .CreationsImage{
     width: 70%;
     height: 70%;
-    border: solid rgb(98, 227, 231) 3px; 
+    border: solid #FFA69E 3px; 
     border-radius: 20px;
     animation: fadeInAnimation ease 3.0s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+}
+.myCreations{
+    border: none;
+}
+.card{
+    border: none;
 }

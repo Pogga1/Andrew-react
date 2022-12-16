@@ -2,11 +2,14 @@
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    border: 2px solid white;
+    border: 2px solid #FFA69E;
 }
 .headerName{
     display: flex;
     justify-content: center;
+    color: #FFA69E;
+    font-weight: bold;
+    text-decoration: none;
 }
 .box{
     display: flex;

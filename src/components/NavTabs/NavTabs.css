@@ -1,20 +1,21 @@
 *{
-    background-image: url('../../assets/842353-full-hd-background-images-1920x1080-for-windows-7.jpg');
-    font-family: 'Montserrat Alternates', sans-serif;
+    background-image: linear-gradient(to bottom right,#5D4954, #FFA69E
+    );
+    font-family: 'Dosis', sans-serif;;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    color: white;
+    color: #ffffff;
     }
 a {
-    color:white
+    color:#FFA69E
 }
 .NavColor{
-    color: white
+    color: #FFA69E
 }
 .NavColor:hover {
-    color: aqua;
+    color: white;
 }
 
 @keyframes fadeInAnimation {

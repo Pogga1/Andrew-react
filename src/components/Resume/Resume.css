@@ -1,24 +1,35 @@
 .resume{
-    width: 60%;
+    width: 80%;
+    height: auto;
     margin: auto;
+    text-decoration: 2px solid ;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-left: #FFA69E solid 2px;
+    border-right: #FFA69E solid 2px;
+    
 }
-
-.objective{
-    text-decoration: underline;
-    font-weight: bold;
-}
-.educational{
-    text-decoration: underline;
-    font-weight: bold;
-}
-.highlights{
-    text-decoration: underline;
-    font-weight: bold;
-}
-
 .resume ul{
-    border:#5e7085 solid 2px;
+    border-left:#FFA69E solid 2px;
+    border-right:#FFA69E solid 2px;
 }
-.resume p{
-    font-size: 20px;
-}
+.button{
+    font-size: 40px;
+    border: #FFA69E solid 2px;
+    padding: 5px;
+    margin-top: 20px ;
+    text-decoration: none;
+  }
+.button:hover{
+    background-color: #FFA69E;
+    font-size: 45px;
+  }
+  .container{
+    margin-top: 20px;
+  }
+  .Skills{
+    text-decoration: none;
+  }
+ 

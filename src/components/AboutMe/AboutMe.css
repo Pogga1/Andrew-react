@@ -1,44 +1,38 @@
 .AboutMe {
-font-family: 'Nunito Sans', sans-serif;
-animation: fadeInAnimation ease 3.0s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-
-}
-h2 {
-    display: flex;
-    justify-content: center;
-}
-.image{
-    height: 60vh;
-    width: 50%;
-    border-radius: 10% ;    
-    border: solid rgb(98, 227, 231) 3px; 
-}
-.meImgContainer{
-    display: flex;
-    justify-content: center; 
-    padding: 5px;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
-.card-body{
-    margin-bottom: 5px;
+.image {
+  height: 60vh;
+  width: 50%;
+  border-radius: 10%;
+  border: solid #FFA69E 3px;
 }
 
-.infoContainer{
-    border:#5e7085 solid 2px;
-    border-radius:  5px;
-    font-size: 20px;
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: center;
-    width: 60%;
-    margin: auto;
-    
+.infoContainer {
+  font-size: 20px;
+  width: 50%;
+  height: 45%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  line-height: 40px;
+  text-align: center;
+  border-left: 3px solid #FFA69E;
+  border-right: 3px solid #FFA69E;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 1%;
 }
-.card{
-    border: none;
+.movies{
+    color:white;
+    font-weight: bold;
 }
-li{
-    list-style: none;
+.header{
+  font-weight: bold;
 }
