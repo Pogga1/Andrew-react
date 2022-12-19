@@ -6,7 +6,7 @@ export default function Resume() {
   return (
     <div className="resume">
         <div  className="container d-flex justify-content-center">
-          <a className='button rounded' href={resume} target='_blank'>View Resume Here</a>
+          <a className='button rounded' href={resume} target='_blank' rel='noreferrer'>View Resume Here</a>
         </div>
       <h1 className=" justify-content-center d-flex mt-4 highlights">My Skills</h1>
       <div className="skill-container text-center">

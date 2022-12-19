@@ -11,7 +11,7 @@ function Header() {
     <header className="header">
       <h1 className='headerName'>Andrew Eysoldt</h1>
       <div className='box'>
-      <img src={Me} className='Me'></img>
+      <img src={Me} alt='me' className='Me'></img>
       </div>
     </header>
   );

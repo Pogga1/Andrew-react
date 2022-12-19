@@ -1,5 +1,5 @@
 import React from 'react';
-import Me from '../../assets/Me.jpg'
+
 import'./AboutMe.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -17,8 +17,8 @@ function AboutMe() {
           </div>
            <h3 className='movies'>My favorite movies</h3>
            <div>
-            <img src=''></img>
-            <img src=''></img>
+            {/* <img src=''></img>
+            <img src=''></img> */}
            </div>
         </div>
         </div>
