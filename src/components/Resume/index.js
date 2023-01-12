@@ -1,7 +1,7 @@
 import React from "react";
 import "./Resume.css";
 import { SiHtml5, SiJava, SiCss3, SiBootstrap, SiTailwindcss, SiMongodb, SiExpress, SiMysql, SiNodedotjs, SiReact, SiJquery, SiHeroku, SiGit, SiNpm, SiHandlebarsdotjs } from 'react-icons/si'
-import resume from '../../assets/Resume-Andrew-Eysoldt-1.pdf'
+import resume from '../../assets/Andrew Eysoldt.pdf'
 export default function Resume() {
   return (
     <div className="resume">
